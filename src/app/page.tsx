@@ -215,8 +215,7 @@ export default function HomePage() {
 
         <Box style={{ borderLeft: "2px solid rgba(34,211,238,0.3)", paddingLeft: 14 }}>
           <Text size="lg" style={{ color: "rgba(255,255,255,0.65)", lineHeight: 1.7, fontStyle: "italic" }}>
-            For years, search worked as the front door of the web. That model is now being disrupted. With AI-generated summaries, users increasingly get answers without ever leaving the results page.
-          </Text>
+            Search was the gateway to the internet for decades. However, this is no longer the case, with search results providing AI-powered summaries that answer questions without needing to leave the page at all.          </Text>
         </Box>
 
         <Divider color="rgba(255,255,255,0.06)" />
@@ -299,14 +298,12 @@ export default function HomePage() {
         <SectionHeading index="01">Search used to send people outward</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Back then, searching online felt straightforward. Into the box went your words, out came rows of plain blue lines waiting to be checked. One by one you&apos;d look them over before picking a link to follow. These engines didn&apos;t hold answers themselves - they pointed outward, sending folks to articles, personal sites, message boards, government pages. Visits weren&apos;t just numbers - each click fed income from ads, helped sell memberships, raised awareness, kept independent corners of the internet alive.
+            This was the case for decades in terms of how you searched the internet. You would type something into your search engine of choice, get results back, and then select where you wanted to go from there. The search engines themselves rarely provided an answer, serving more as a gateway to information that would take you somewhere else, whether that be articles, discussion forums, government agencies, or independently owned sites.          </Text>
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            That system was never completely neutral. Visibility depended on ranking, which always shaped who was seen and who was ignored. Even so, the basic logic remained outward-facing: search results were designed to send users to the original source.
           </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            This setup never stayed truly impartial. Visibility of websites depended on how search results ranked them, deciding who got seen and who didn&apos;t. Still, the main pattern pulled people outward - results guided users off the site, sending them directly to original pages.
-          </Text>
-          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            These days, the rush outward has started to fade. Because AI gives answers right away, people often skip the source entirely - no click needed. What once drove traffic now holds it back.
-          </Text>
+            This paradigm is shifting. The presence of AI-generated answers on the results page makes it easier for users to obtain what they are looking for without even going to the actual source. An attention-spreading system is gradually evolving into one that holds back more attention than before.          </Text>
         </Stack>
       </Box>
 
@@ -328,7 +325,7 @@ export default function HomePage() {
             lineHeight: 1.6,
           }}
         >
-          &ldquo;If users increasingly get what they need on the search page itself, publishers may lose not just clicks — but visibility, leverage, and revenue.&rdquo;
+          &ldquo;If users start to satisfy their needs directly from the search results page, the publishers could end up not only losing clicks – but even more importantly, visibility, leverage, and money.&rdquo;
         </Text>
         <Text style={{ ...MONO, fontSize: "0.65rem", color: "rgba(34,211,238,0.5)", letterSpacing: "0.08em", marginTop: 10 }}>
           {"// CORE TENSION · AI SEARCH SUMMARIES & ZERO-CLICK SEARCH"}
@@ -347,11 +344,9 @@ export default function HomePage() {
         <SectionHeading index="02">What AI summaries change</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Search used to point you places. Now it tells you what matters straight up. Reading pages, pulling key bits, shaping them into clear replies - this is how things work today. You stay put in the search window. Info comes to you. Jumping around sites? Less needed now. The machine digests words so you do not have to hunt. Answers show up ready made. Context arrives fast. No detours required. It understands before showing results. Meaning gets served early. Navigation shifts without fanfare. What once listed links now explains outcomes. Your time bends differently here. Queries meet response in one breath. Outside clicks fade as default move. Inside answers rise. This changes rhythm of looking.
-          </Text>
+            The function of search is altered by the AI-powered summarization. It no longer acts merely as an agent that helps the user find the necessary data; the search engine now interprets it, summarizes, and presents it. Often, the user does not have to go to several different pages to obtain an informative reply.          </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            What happens when Google shows off its AI Mode becomes clear through the demo itself. A faster way to get answers appears, one built around back-and-forth exchanges. Refining questions comes next, shaped by new inputs each time. Links to sources sit tucked within the view, present but not upfront. The whole thing runs in a single space, seamless yet layered.
-          </Text>
+            Google&apos;s This is where AI mode really stands out. It offers search in an interactive dialogue format whereby you get more refined responses the more you refine your questions. Source links are there, but they do not dominate the process anymore. What comes first is the answer, while the source takes second place. </Text>
 
           {/* inline key insight */}
           <Box
@@ -364,13 +359,11 @@ export default function HomePage() {
           >
             <MonoLabel color="rgba(139,92,246,0.8)">key_insight</MonoLabel>
             <Text size="sm" style={{ color: "rgba(255,255,255,0.75)", lineHeight: 1.7, marginTop: 8 }}>
-              Nowadays, people aren&apos;t just using search engines to locate things. Instead, they&apos;re reading shortened versions right there on the results page. What once was a doorway has turned into a reading spot. Summaries appear before full articles even load. Information gets digested without clicking through. The tool meant for finding now holds attention itself. Pages open less often because answers show up instantly. Quick replies replace deep dives. Responses pop up so fast that scrolling feels slow. Finding something used to mean visiting sites. Now it means staying put and getting served.
-            </Text>
+              Search engines are not just being used by people for finding information anymore; they are also increasingly using them for consuming information on the results page. The search engine that once served as the gateway to the internet is now turning into a destination site. This is important because more attention and credits are being earned even before reaching the publisher’s website.            </Text>
           </Box>
 
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Now things shift around how we pay attention. Fewer clicks mean less traffic for sites, which cuts down on ads shown and chances to turn passersby into paying members. Without checking multiple places first, people might just go with what the platform serves up - particularly if it arrives quickly, sounds sure of itself, and fits neatly into their routine.
-          </Text>
+            It alters how attention is allocated on the internet. With fewer clicks comes less page views for content providers, which leads to less advertisement exposure and less chances of converting occasional viewers into dedicated followers. Moreover, it can imply greater dependency on the context provided by the platform for a particular topic, which is swift and self-assured.          </Text>
         </Stack>
       </Box>
 
@@ -379,17 +372,13 @@ export default function HomePage() {
         <SectionHeading index="03">Why publishers are worried</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Most people think referral numbers are just for show. Yet they actually keep many outlets alive. Websites covering news, niche topics, or culture count on search engines to deliver visitors - visitors who might watch an ad, join a mailing list, or eventually pay for access. When answers appear inside AI tools without a click-through, the whole flow stops short.
-          </Text>
+            Referral traffic is not vanity traffic for most publishers. It is a crucial factor in how many newsrooms, niche publications, and culture sites stay alive. They attract visitors who will potentially see their advertisements, become subscribers to their newsletters, or even subscribe to their publication. When an AI tool answers their query without redirecting them, this value stream gets disrupted.          </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Nowhere feels safe lately - not even online pages once thought steady. Something odd happens when answers appear without clicks. Readers stay inside apps, never visiting the sites where stories began. Value slips away, gathered by systems that didn&apos;t create a thing. Pages still load, yet fewer eyes find them. Who benefits most? Not those who write. Quiet shifts reshape everything, though few notice until it&apos;s too late.
-          </Text>
+            As people continue to use AI-powered interfaces, publishers give up not only views but also direct connections to their audience and the chance to create trust and manage the presentation of their material. Publishers no longer create value but merely collect and condense it into something else.          </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            First things first, AI Mode steps right into the spotlight where Top Stories used to stand alone. Not only does it challenge old formats, but it also slowly reshapes how eyes land on content. Suddenly, credit shifts hands without warning. Whoever shows up early now might not be the one who created it. Visibility dances differently when algorithms lead instead of editors. Revenue follows that new rhythm whether publishers like it or not.
-          </Text>
+            This is particularly significant since AI responses will vie for attention with the format of “Top Stories,” an old model of journalism which used to emphasize the importance of publishers. In highlighting their own summaries, they also redefine who gets their name out there and earns profits. What is immediately shown on the platform may not even be the source organization itself.          </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Big names often stay seen since people already know them. Yet tiny sites might struggle when summaries replace visits - pushing traffic toward fewer top spots online. A shift like that tilts the field quietly.
-          </Text>
+            Big brands can maintain their visibility due to user awareness. On the other hand, smaller brands are extremely exposed when summary replaces visit. This means that the future will have even more traffic flowing through very big portals that mediate the visit.          </Text>
         </Stack>
       </Box>
 
@@ -405,11 +394,9 @@ export default function HomePage() {
         <SectionHeading index="04">The new gatekeepers of visibility</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            What shows up in AI summaries still faces control. Often, it gets tighter. Not just sorting web pages anymore - now picking what info gets pulled in, whose words get repeated, and how ideas appear right at the start.
-          </Text>
+            Visibility has always been influenced by design on the platform itself, but with the use of AI summary generation, the control becomes more concentrated. The issue is not only what page ranks at the top but also what information gets chosen, which words are repeated verbatim, and the framing of the issue.          </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            This matters since being seen builds trust. Less linking means fewer visits, which leaves people relying on what they get through automated summaries instead. That shift pulls attention away from the publisher. Trust moves toward the middleman serving up the content.
-          </Text>
+            It is important because the visibility affects the degree of trust. When a user finds information through a summarized version instead of the information being directly provided, the connection is created not to the publisher but to the intermediary that provides the answer.          </Text>
 
           {/* closing pull quote */}
           <Box style={{ borderLeft: "2px solid rgba(255,255,255,0.15)", paddingLeft: 16, marginTop: 8 }}>
@@ -419,8 +406,7 @@ export default function HomePage() {
           </Box>
 
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Speed and ease arrive, yet platforms grow stronger. Readers get faster access while publishers face distance from those who follow them. What feels like advancement to some looks like control to others. Your view changes based on where you stand when the link opens.
-          </Text>
+            This is advantageous to readers, who gain both speed and efficiency, but disadvantageous to platforms, which will wield even more power over discoverability than they already do. What is an improvement from one point of view is a limitation from another.          </Text>
         </Stack>
       </Box>
 
@@ -429,11 +415,9 @@ export default function HomePage() {
         <SectionHeading index="05">What readers gain and lose</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Most people just want answers fast. With AI summaries, they do not need to click through pages or scroll down long posts. One glance gives them what once took minutes to find. Jumping between sites fades into the background. Getting details feels like talking, not searching. Questions come naturally after that. The whole thing takes less effort without feeling robotic. Because of this, searching with AI cuts down on hassle. Information hunting becomes smoother, almost like a quiet helper stepping in during simple checks or everyday lookups.
-          </Text>
+            For the reader, the benefit is self-explanatory. In terms of ease of use, efficiency, and engagement, the convenience offered by AI-driven summaries cannot be understated. Rather than having to open multiple pages to formulate a response, users are able to get their answers instantly and even follow up with further queries.          </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Still, getting things fast means giving something up. Summaries often smooth out subtle differences, skip key background details, leaving only a single clear conclusion even when none exists. Fewer clicks on the real sources mean fewer chances to see full reasoning, proof, or different takes. A narrower range of voices might show up simply because the system chooses what gets pulled in. Speed becomes easier to find while depth slips away, along with wide-ranging origins and personal touch with the work behind answers.
-          </Text>
+            However, there are also downsides. The information may lack context, miss out on some aspects, and reduce everything to a concise summary of what is actually an open question or issue. With less frequent visits to the original source material, readers also fail to get to know the evidence or the range of opinions used to compile the summary.          </Text>
         </Stack>
       </Box>
 
@@ -442,11 +426,9 @@ export default function HomePage() {
         <SectionHeading index="06">What this means for smaller publishers</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Small publishers face real danger as AI-generated summaries grow more common. Search still matters for independent websites, community journalism, and specialised platforms in a way it often does not for major outlets with stronger reputations and steady audiences. If fewer users click through from results pages, smaller operations can disappear from view very quickly.
-          </Text>
+            The small publishing companies are really threatened by the increase in the usage of AI summary generation tools. Search engines play an important role for independent websites, community journalism websites, and other specialized websites that do not have any prominent reputation. In case there is less traffic from search engine pages, these sites could easily become invisible.          </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            This shift does not hit everyone evenly. Big names usually remain visible because people already know them, but smaller creators can lose visits, recognition, and income even when their work helped shape the summary in the first place. Over time, that could leave the web more concentrated around large publishers and tech platforms.
-          </Text>
+            This transformation will not affect everyone equally. Famous names will always continue to receive attention since most individuals are aware of their identity, whereas lesser-known artists may suffer from a loss of views, exposure, and earnings even if they were instrumental in the development of the summary. This will ultimately result in greater consolidation on the internet.          </Text>
         </Stack>
       </Box>
 
