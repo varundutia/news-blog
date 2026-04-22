@@ -21,5 +21,7 @@ The site is a single article page at `src/app/page.tsx`.
 ## Notes
 
 - The app is configured as a static export.
-- The homepage is served from `/`.
+- Local development serves the homepage from `/`.
+- GitHub Actions automatically builds with a repo-aware `basePath`, so Pages assets work under `/<repo-name>/`.
+- The GitHub Pages workflow publishes the `out/` directory from `.github/workflows/deploy.yml`.
 - Turbopack has been avoided here in favor of webpack for stability.
