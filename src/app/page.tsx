@@ -442,10 +442,10 @@ export default function HomePage() {
         <SectionHeading index="06">What this means for smaller publishers</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Small publishers face real danger as AI-generated summaries grow more common. Yet reaching people through search remains key for independent websites, community journalism, and specialised platforms. Major outlets may rely on reputation, steady followers, or paid memberships instead. But without broad awareness or massive user bases, lesser-known voices once found space online just by offering solid content. Because search engines used to highlight quality regardless of source size. Now if fewer users click through from results pages, these smaller operations vanish into silence almost overnight.
+            Small publishers face real danger as AI-generated summaries grow more common. Search still matters for independent websites, community journalism, and specialised platforms in a way it often does not for major outlets with stronger reputations and steady audiences. If fewer users click through from results pages, smaller operations can disappear from view very quickly.
           </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Something shifts unevenly across how digital media works now. Readers grabbing quick versions made by apps rather than going to the source hit lesser-known websites hardest - they see fewer visits, less notice, lower income. Big names tend to stay seen since people recognize them easily. But tiny creators might vanish completely, even if their work is what got summarized in the first place. Slowly, the internet could center only on powerful sites and tech giants, leaving out varied perspectives audiences once found online.
+            This shift does not hit everyone evenly. Big names usually remain visible because people already know them, but smaller creators can lose visits, recognition, and income even when their work helped shape the summary in the first place. Over time, that could leave the web more concentrated around large publishers and tech platforms.
           </Text>
         </Stack>
       </Box>
