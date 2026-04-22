@@ -75,7 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       letterSpacing: "0.06em",
                     }}
                   >
-                    // digital media & tech
+                    {"// digital media & tech"}
                   </Text>
                 </Group>
                 <Text
