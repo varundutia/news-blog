@@ -4,12 +4,9 @@ import {
   Title,
   Text,
   Stack,
-  Paper,
-  Badge,
   Group,
   Divider,
   Anchor,
-  List,
   SimpleGrid,
   Box,
 } from "@mantine/core";
@@ -85,9 +82,11 @@ const furtherReading = [
 const references = [
   "Chadha, K., & Koliska, M. (2015). Newsrooms and transparency in the digital age. Journalism Practice, 9(2), 215–229. https://doi.org/10.1080/17512786.2014.924737",
   "Goode, L. (2009). Social news, citizen journalism and democracy. New Media & Society, 11(8), 1287–1305. https://doi.org/10.1177/1461444809341393",
-  "The Guardian. (2026, January 12). Publishers fear AI search summaries and chatbots mean the end of the traffic era. https://www.theguardian.com/media/2026/jan/12/",
-  "The Verge. (2026). Google's AI Mode update lets you open links without leaving the page. https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
-  "Wired. (2026). Google's AI Mode update tries to kill tab hopping in Chrome. https://www.wired.com/story/google-ai-mode-update-tries-to-kill-tab-hopping-in-chrome/",
+  'Google. (2025, June 2). Meet AI Mode – Try a whole new way to search [Video]. YouTube. https://www.youtube.com/watch?v=0uVRHl9gAco',
+  'Google Search Central. (2025, July 1). AI features in Search & your site, Search Console, SEO community insights (Q2 ’25) [Video]. YouTube. https://www.youtube.com/watch?v=MmOxK0nwtIc',
+  'TowCenter. (2026, February 20). AI search and news [Video]. YouTube. https://www.youtube.com/watch?v=MsH_5rzTDb8',
+  'What Happens To The Web When Search Abandons The Web? (n.d.). [Video]. YouTube. https://www.youtube.com/watch?v=5G6zA231RJc',
+  'AI Mode vs. Top stories: Where news SEO wins (and loses) in 2026. (n.d.). [Video]. YouTube. https://www.youtube.com/watch?v=RwPE9Zj6aSU',
 ];
 
 // ── sub-components ──────────────────────────────────────────────────
@@ -178,7 +177,7 @@ function VideoEmbed({ videoId, title, caption }: { videoId: string; title: strin
           padding: "10px 14px",
         }}
       >
-        <MonoLabel color="rgba(34,211,238,0.5)">// {caption}</MonoLabel>
+        <MonoLabel color="rgba(34,211,238,0.5)">{"// "}{caption}</MonoLabel>
       </Box>
     </Box>
   );
@@ -231,6 +230,9 @@ export default function HomePage() {
             </Text>
           </Group>
           <Text style={{ ...MONO, fontSize: "0.68rem", color: "rgba(255,255,255,0.25)", letterSpacing: "0.06em" }}>
+            VARUN HAMEER DUTIA · 25205952
+          </Text>
+          <Text style={{ ...MONO, fontSize: "0.68rem", color: "rgba(255,255,255,0.25)", letterSpacing: "0.06em" }}>
             APR 2026
           </Text>
           <Text style={{ ...MONO, fontSize: "0.68rem", color: "rgba(255,255,255,0.25)", letterSpacing: "0.06em" }}>
@@ -275,7 +277,7 @@ export default function HomePage() {
 
       {/* ── Core trade-off ── */}
       <Box style={{ ...SURFACE, borderRadius: 4, padding: "20px 20px" }}>
-        <MonoLabel color="rgba(255,255,255,0.3)">// core-tradeoff.analysis</MonoLabel>
+        <MonoLabel color="rgba(255,255,255,0.3)">{"// core-tradeoff.analysis"}</MonoLabel>
         <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md" mt="sm">
           <Box style={{ ...ACCENT_SURFACE, borderRadius: 4, padding: 16 }}>
             <MonoLabel color="#22d3ee">reader_experience</MonoLabel>
@@ -297,13 +299,13 @@ export default function HomePage() {
         <SectionHeading index="01">Search used to send people outward</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            The traditional search model was simple. A user typed a query, scanned a page of blue links, and clicked through to a website. Search engines acted as gateways, directing people toward publishers, blogs, forums, and official sources. That traffic mattered — it supported ad revenue, subscriptions, brand visibility, and the wider ecosystem of the open web.
+            Back then, searching online felt straightforward. Into the box went your words, out came rows of plain blue lines waiting to be checked. One by one you&apos;d look them over before picking a link to follow. These engines didn&apos;t hold answers themselves - they pointed outward, sending folks to articles, personal sites, message boards, government pages. Visits weren&apos;t just numbers - each click fed income from ads, helped sell memberships, raised awareness, kept independent corners of the internet alive.
           </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            This system was never fully neutral. Search rankings always shaped which sites were visible and which were buried. But even so, the dominant logic was <em style={{ color: "rgba(255,255,255,0.88)" }}>outward movement</em>: search pointed users away from the platform and toward the source.
+            This setup never stayed truly impartial. Visibility of websites depended on how search results ranked them, deciding who got seen and who didn&apos;t. Still, the main pattern pulled people outward - results guided users off the site, sending them directly to original pages.
           </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            That outward flow is now weakening. AI summaries increasingly answer the question before the user ever clicks, reducing the need to visit the original publisher at all.
+            These days, the rush outward has started to fade. Because AI gives answers right away, people often skip the source entirely - no click needed. What once drove traffic now holds it back.
           </Text>
         </Stack>
       </Box>
@@ -329,15 +331,15 @@ export default function HomePage() {
           &ldquo;If users increasingly get what they need on the search page itself, publishers may lose not just clicks — but visibility, leverage, and revenue.&rdquo;
         </Text>
         <Text style={{ ...MONO, fontSize: "0.65rem", color: "rgba(34,211,238,0.5)", letterSpacing: "0.08em", marginTop: 10 }}>
-          // CORE TENSION · AI SEARCH SUMMARIES &amp; ZERO-CLICK SEARCH
+          {"// CORE TENSION · AI SEARCH SUMMARIES & ZERO-CLICK SEARCH"}
         </Text>
       </Box>
 
       {/* ── VIDEO 1 ── */}
       <VideoEmbed
-        videoId="wd6CPDY6RVg"
-        title="Google's AI Overviews: What They Mean for the Web"
-        caption="How Google's AI search summaries work, why they were introduced, and what they mean for information consumption online."
+        videoId="0uVRHl9gAco"
+        title="Meet AI Mode – Try a whole new way to search"
+        caption="Google frames AI search as a faster answer experience with follow-up questions and web links, showing how search is shifting from directory to interpreter."
       />
 
       {/* ── Section 02 ── */}
@@ -345,7 +347,10 @@ export default function HomePage() {
         <SectionHeading index="02">What AI summaries change</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            AI search summaries change the role of search from directory to interpreter. Instead of only listing sources, the platform now reads, condenses, and rewrites information into a direct answer. In practice, users can remain inside the search experience rather than moving outward to another website.
+            Search used to point you places. Now it tells you what matters straight up. Reading pages, pulling key bits, shaping them into clear replies - this is how things work today. You stay put in the search window. Info comes to you. Jumping around sites? Less needed now. The machine digests words so you do not have to hunt. Answers show up ready made. Context arrives fast. No detours required. It understands before showing results. Meaning gets served early. Navigation shifts without fanfare. What once listed links now explains outcomes. Your time bends differently here. Queries meet response in one breath. Outside clicks fade as default move. Inside answers rise. This changes rhythm of looking.
+          </Text>
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            What happens when Google shows off its AI Mode becomes clear through the demo itself. A faster way to get answers appears, one built around back-and-forth exchanges. Refining questions comes next, shaped by new inputs each time. Links to sources sit tucked within the view, present but not upfront. The whole thing runs in a single space, seamless yet layered.
           </Text>
 
           {/* inline key insight */}
@@ -359,12 +364,12 @@ export default function HomePage() {
           >
             <MonoLabel color="rgba(139,92,246,0.8)">key_insight</MonoLabel>
             <Text size="sm" style={{ color: "rgba(255,255,255,0.75)", lineHeight: 1.7, marginTop: 8 }}>
-              The search engine is no longer simply helping users <em>find</em> content — it is increasingly becoming the place where content is <em>consumed</em> in summarised form.
+              Nowadays, people aren&apos;t just using search engines to locate things. Instead, they&apos;re reading shortened versions right there on the results page. What once was a doorway has turned into a reading spot. Summaries appear before full articles even load. Information gets digested without clicking through. The tool meant for finding now holds attention itself. Pages open less often because answers show up instantly. Quick replies replace deep dives. Responses pop up so fast that scrolling feels slow. Finding something used to mean visiting sites. Now it means staying put and getting served.
             </Text>
           </Box>
 
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            This alters the economics of attention. If fewer readers click through, publishers lose page views, ad impressions, and opportunities to convert casual visitors into subscribers. Instead of comparing several sources, readers may accept the platform&apos;s composite answer as sufficient — especially when it appears fast, confident, and convenient.
+            Now things shift around how we pay attention. Fewer clicks mean less traffic for sites, which cuts down on ads shown and chances to turn passersby into paying members. Without checking multiple places first, people might just go with what the platform serves up - particularly if it arrives quickly, sounds sure of itself, and fits neatly into their routine.
           </Text>
         </Stack>
       </Box>
@@ -374,22 +379,25 @@ export default function HomePage() {
         <SectionHeading index="03">Why publishers are worried</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            For publishers, referral traffic is not just a vanity metric. It is a business model. News sites, specialist blogs, and digital magazines rely on search to bring in readers who may then view ads, sign up for newsletters, or become paying subscribers. If AI summaries satisfy the user before a click happens, that chain is broken.
+            Most people think referral numbers are just for show. Yet they actually keep many outlets alive. Websites covering news, niche topics, or culture count on search engines to deliver visitors - visitors who might watch an ad, join a mailing list, or eventually pay for access. When answers appear inside AI tools without a click-through, the whole flow stops short.
           </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Recent reporting has shown growing concern across the publishing industry that AI search could accelerate the decline of web traffic. The fear is not simply that platforms are evolving, but that they are keeping more value for themselves while relying on content produced elsewhere.
+            Nowhere feels safe lately - not even online pages once thought steady. Something odd happens when answers appear without clicks. Readers stay inside apps, never visiting the sites where stories began. Value slips away, gathered by systems that didn&apos;t create a thing. Pages still load, yet fewer eyes find them. Who benefits most? Not those who write. Quiet shifts reshape everything, though few notice until it&apos;s too late.
           </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            Larger brands may retain visibility because they are already recognised authorities. Smaller publishers, however, may find it harder to compete if they are summarised rather than visited — creating a more uneven web where attention concentrates around a smaller number of dominant players.
+            First things first, AI Mode steps right into the spotlight where Top Stories used to stand alone. Not only does it challenge old formats, but it also slowly reshapes how eyes land on content. Suddenly, credit shifts hands without warning. Whoever shows up early now might not be the one who created it. Visibility dances differently when algorithms lead instead of editors. Revenue follows that new rhythm whether publishers like it or not.
+          </Text>
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            Big names often stay seen since people already know them. Yet tiny sites might struggle when summaries replace visits - pushing traffic toward fewer top spots online. A shift like that tilts the field quietly.
           </Text>
         </Stack>
       </Box>
 
       {/* ── VIDEO 2 ── */}
       <VideoEmbed
-        videoId="C7lMo3ZoJMo"
-        title="Are Publishers Losing the Battle Against AI Search?"
-        caption="Journalists and media executives discuss the real-world impact of AI-generated search answers on referral traffic and newsroom economics."
+        videoId="MsH_5rzTDb8"
+        title="AI Search and News"
+        caption="A news-focused explanation of why AI answers are not just a UX shift but a publisher visibility and media-economics issue."
       />
 
       {/* ── Section 04 ── */}
@@ -397,10 +405,10 @@ export default function HomePage() {
         <SectionHeading index="04">The new gatekeepers of visibility</SectionHeading>
         <Stack gap="md">
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            AI summaries do not eliminate gatekeeping. In many ways, they intensify it. Search platforms are no longer only ranking links — they are selecting which sources to absorb, which claims to surface, and which framing to present to the user first.
+            What shows up in AI summaries still faces control. Often, it gets tighter. Not just sorting web pages anymore - now picking what info gets pulled in, whose words get repeated, and how ideas appear right at the start.
           </Text>
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            This matters because visibility shapes credibility. If a source is linked less often, visited less often, and encountered mainly through a platform-generated summary, its relationship with the user becomes weaker. The platform becomes the primary point of trust, while the original source fades into the background.
+            This matters since being seen builds trust. Less linking means fewer visits, which leaves people relying on what they get through automated summaries instead. That shift pulls attention away from the publisher. Trust moves toward the middleman serving up the content.
           </Text>
 
           {/* closing pull quote */}
@@ -411,7 +419,33 @@ export default function HomePage() {
           </Box>
 
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            The result is a more platform-dependent web. Readers may gain speed and convenience, but publishers risk losing direct connection with their audiences. Whether this represents progress or consolidation depends on which side of the click you are on.
+            Speed and ease arrive, yet platforms grow stronger. Readers get faster access while publishers face distance from those who follow them. What feels like advancement to some looks like control to others. Your view changes based on where you stand when the link opens.
+          </Text>
+        </Stack>
+      </Box>
+
+      {/* ── Section 05 ── */}
+      <Box style={{ ...SURFACE, borderRadius: 4, padding: "28px 24px" }}>
+        <SectionHeading index="05">What readers gain and lose</SectionHeading>
+        <Stack gap="md">
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            Most people just want answers fast. With AI summaries, they do not need to click through pages or scroll down long posts. One glance gives them what once took minutes to find. Jumping between sites fades into the background. Getting details feels like talking, not searching. Questions come naturally after that. The whole thing takes less effort without feeling robotic. Because of this, searching with AI cuts down on hassle. Information hunting becomes smoother, almost like a quiet helper stepping in during simple checks or everyday lookups.
+          </Text>
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            Still, getting things fast means giving something up. Summaries often smooth out subtle differences, skip key background details, leaving only a single clear conclusion even when none exists. Fewer clicks on the real sources mean fewer chances to see full reasoning, proof, or different takes. A narrower range of voices might show up simply because the system chooses what gets pulled in. Speed becomes easier to find while depth slips away, along with wide-ranging origins and personal touch with the work behind answers.
+          </Text>
+        </Stack>
+      </Box>
+
+      {/* ── Section 06 ── */}
+      <Box style={{ ...SURFACE, borderRadius: 4, padding: "28px 24px" }}>
+        <SectionHeading index="06">What this means for smaller publishers</SectionHeading>
+        <Stack gap="md">
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            Small publishers face real danger as AI-generated summaries grow more common. Yet reaching people through search remains key for independent websites, community journalism, and specialised platforms. Major outlets may rely on reputation, steady followers, or paid memberships instead. But without broad awareness or massive user bases, lesser-known voices once found space online just by offering solid content. Because search engines used to highlight quality regardless of source size. Now if fewer users click through from results pages, these smaller operations vanish into silence almost overnight.
+          </Text>
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            Something shifts unevenly across how digital media works now. Readers grabbing quick versions made by apps rather than going to the source hit lesser-known websites hardest - they see fewer visits, less notice, lower income. Big names tend to stay seen since people recognize them easily. But tiny creators might vanish completely, even if their work is what got summarized in the first place. Slowly, the internet could center only on powerful sites and tech giants, leaving out varied perspectives audiences once found online.
           </Text>
         </Stack>
       </Box>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/varundutia/projects/news-blog log --oneline -5)",
+      "Bash(git -C /Users/varundutia/projects/news-blog show --stat HEAD)"
+    ]
+  }
+}
