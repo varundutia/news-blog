@@ -442,17 +442,6 @@ export default function HomePage() {
         </Stack>
       </Box>
 
-      {/* ── Section 06 ── */}
-      <Box style={{ ...SURFACE, borderRadius: 4, padding: "28px 24px" }}>
-        <SectionHeading index="06">What this means for smaller publishers</SectionHeading>
-        <Stack gap="md">
-          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            The small publishing companies are really threatened by the increase in the usage of AI summary generation tools. Search engines play an important role for independent websites, community journalism websites, and other specialized websites that do not have any prominent reputation. In case there is less traffic from search engine pages, these sites could easily become invisible.          </Text>
-          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
-            This transformation will not affect everyone equally. Famous names will always continue to receive attention since most individuals are aware of their identity, whereas lesser-known artists may suffer from a loss of views, exposure, and earnings even if they were instrumental in the development of the summary. This will ultimately result in greater consolidation on the internet.          </Text>
-        </Stack>
-      </Box>
-
       <Divider color="rgba(255,255,255,0.05)" />
 
       {/* ── Further Reading ── */}
