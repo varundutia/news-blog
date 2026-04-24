@@ -86,13 +86,12 @@ const furtherReading = [
 const references = [
   "Bruns, A. (2018). Gatewatching and news curation: Journalism, social media, and the public sphere. Peter Lang. https://snurb.info/Gatewatching",
   "Digital Applied Team. (2026, March 12). 60% zero-click searches: The 2026 SEO crisis strategy. Digital Applied. https://www.digitalapplied.com/blog/60-percent-searches-zero-click-crisis-2026-seo-strategy",
+  'Google. (2025, June 2). Meet AI Mode - Try a whole new way to search [Video]. YouTube. https://www.youtube.com/watch?v=0uVRHl9gAco',
   "Malik, A. (2026, April 16). Google now lets you explore the web side-by-side with AI Mode. TechCrunch. https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/",
-  "Meier, K. (2009). Transparency in journalism: Credibility and trustworthiness in the digital future. Future of Journalism Conference. https://www.researchgate.net/publication/357834352_TRANSPARENCY_IN_JOURNALISM_Credibility_and_trustworthiness_in_the_digital_future",
-  'Google. (2025, June 2). Meet AI Mode – Try a whole new way to search [Video]. YouTube. https://www.youtube.com/watch?v=0uVRHl9gAco',
+  "Meier, K. (2009, September 9-10). Transparency in journalism: Credibility and trustworthiness in the digital future [Conference paper]. The Future of Journalism, Cardiff, Wales. https://www.researchgate.net/publication/357834352_TRANSPARENCY_IN_JOURNALISM_Credibility_and_trustworthiness_in_the_digital_future",
+  "Savage, M. (2026, January 12). Publishers fear AI search summaries and chatbots mean 'end of traffic era'. The Guardian. https://www.theguardian.com/media/2026/jan/12/publishers-fear-ai-search-summaries-and-chatbots-mean-end-of-traffic-era",
   "Stein, R., & Torres, M. (2026, April 16). A new way to explore the web with AI Mode in Chrome. Google. https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
-  'TowCenter. (2026, February 20). AI search and news [Video]. YouTube. https://www.youtube.com/watch?v=MsH_5rzTDb8',
-  'What Happens To The Web When Search Abandons The Web? (n.d.). [Video]. YouTube. https://www.youtube.com/watch?v=5G6zA231RJc',
-  'AI Mode vs. Top stories: Where news SEO wins (and loses) in 2026. (n.d.). [Video]. YouTube. https://www.youtube.com/watch?v=RwPE9Zj6aSU',
+  'Tow Center for Digital Journalism. (2026, February 20). AI search and news [Video]. YouTube. https://www.youtube.com/watch?v=MsH_5rzTDb8',
 ];
 
 // ── sub-components ──────────────────────────────────────────────────
