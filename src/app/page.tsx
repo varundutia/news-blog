@@ -221,7 +221,7 @@ export default function HomePage() {
 
         <Box style={{ borderLeft: "2px solid rgba(34,211,238,0.3)", paddingLeft: 14 }}>
           <Text size="lg" style={{ color: "rgba(255,255,255,0.65)", lineHeight: 1.7, fontStyle: "italic" }}>
-            Search was the gateway to the internet for decades. However, this is no longer the case, with search results providing AI-powered summaries that answer questions without needing to leave the page at all.          </Text>
+            Search was the gateway to the internet for decades. However, this is beginning to change, with search results providing AI-powered summaries that answer questions without needing to leave the page at all.          </Text>
         </Box>
 
         <Divider color="rgba(255,255,255,0.06)" />
@@ -287,7 +287,7 @@ export default function HomePage() {
           <Box style={{ ...ACCENT_SURFACE, borderRadius: 4, padding: 16 }}>
             <MonoLabel color="#22d3ee">reader_experience</MonoLabel>
             <Text size="sm" style={{ color: "rgba(255,255,255,0.6)", lineHeight: 1.7, marginTop: 8 }}>
-              Faster answers, fewer clicks, and less friction — when the search page feels complete on its own.
+              Faster answers, fewer clicks, and less friction; when the search page feels complete on its own.
             </Text>
           </Box>
           <Box style={{ background: "rgba(239,68,68,0.06)", border: "1px solid rgba(239,68,68,0.18)", borderRadius: 4, padding: 16 }}>
@@ -333,7 +333,7 @@ export default function HomePage() {
             lineHeight: 1.6,
           }}
         >
-          &ldquo;If users start to satisfy their needs directly from the search results page, the publishers could end up not only losing clicks – but even more importantly, visibility, leverage, and money.&rdquo;
+          &ldquo;If users start to satisfy their needs directly from the search results page, the publishers could end up not only losing clicks; but even more importantly, visibility, leverage, and money.&rdquo;
         </Text>
         <Text style={{ ...MONO, fontSize: "0.65rem", color: "rgba(34,211,238,0.5)", letterSpacing: "0.08em", marginTop: 10 }}>
           {"// CORE TENSION · AI SEARCH SUMMARIES & ZERO-CLICK SEARCH"}
@@ -439,6 +439,17 @@ export default function HomePage() {
           <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
             But convenience has costs. Summaries can flatten nuance, omit important context, and present a single clean conclusion where the underlying issue is more contested or complex. When fewer users visit original sources, they also lose access to the full evidence, tone, and diversity of perspectives behind the summary. In that sense, speed can come at the expense of depth.
           </Text>
+        </Stack>
+      </Box>
+
+      {/* ── Section 06 ── */}
+      <Box style={{ ...SURFACE, borderRadius: 4, padding: "28px 24px" }}>
+        <SectionHeading index="06">Why transparency matters now</SectionHeading>
+        <Stack gap="md">
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            The concept of "gatewatching" as proposed by Axel Bruns&apos; provides some explanation for the significance of this transition. News on the Internet has never been a simple process of generating content but rather an exercise in determining what can be seen, shared, and made relevant. The application of artificial intelligence to search engines further complicates this process.          </Text>
+          <Text style={{ lineHeight: 1.85, color: "rgba(255,255,255,0.72)", fontSize: "0.95rem" }}>
+            The research conducted by Klaus Meier on transparency within journalism can also be relevant in this context. It is not enough for an individual to receive information; they must also know the origin of that information and the context in which it was provided. In case AI summary becomes one of the standard channels for accessing information, the need for proper attribution, source linking, and accurate context becomes crucial.          </Text>
         </Stack>
       </Box>
 
